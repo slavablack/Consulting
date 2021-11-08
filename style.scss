@@ -3,6 +3,7 @@ header{
 img{
     background-size: cover;
     height: 30rem; 
+    width: 50%;
      opacity: 0.5;
 }
 h2,p{
@@ -54,5 +55,12 @@ h2,p{
     .text-und{
         text-decoration: underline solid 3px black;
     margin-left: 3rem;
+    }
+}
+main{
+    .card-group{
+        img{
+            height: 20rem;
+        }
     }
 }

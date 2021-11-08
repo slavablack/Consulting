@@ -1,6 +1,7 @@
 header img {
   background-size: cover;
   height: 30rem;
+  width: 50%;
   opacity: 0.5;
 }
 
@@ -70,5 +71,9 @@ header .carousel-item active {
   -webkit-text-decoration: underline solid 3px black;
           text-decoration: underline solid 3px black;
   margin-left: 3rem;
+}
+
+main .card-group img {
+  height: 20rem;
 }
 /*# sourceMappingURL=style.css.map */
