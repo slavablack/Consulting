@@ -1,0 +1,74 @@
+header img {
+  background-size: cover;
+  height: 30rem;
+  opacity: 0.5;
+}
+
+header h2, header p {
+  color: #020a01;
+}
+
+header .carousel-item active {
+  height: 1rem;
+  background-size: cover;
+}
+
+#divcontact {
+  background-color: crimson;
+  text-align: center;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bodykontakt img {
+  width: 70%;
+  height: 75rem;
+  margin: 0px;
+  padding: 0px;
+  -webkit-animation-name: border;
+          animation-name: border;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes border {
+  0% {
+    border: solid 3px yellowgreen;
+  }
+  25% {
+    border: solid 3px yellow;
+  }
+  50% {
+    border: solid 3px blue;
+  }
+  100% {
+    border: solid 3px green;
+  }
+}
+
+@keyframes border {
+  0% {
+    border: solid 3px yellowgreen;
+  }
+  25% {
+    border: solid 3px yellow;
+  }
+  50% {
+    border: solid 3px blue;
+  }
+  100% {
+    border: solid 3px green;
+  }
+}
+
+#bodykontakt .text-und {
+  -webkit-text-decoration: underline solid 3px black;
+          text-decoration: underline solid 3px black;
+  margin-left: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
