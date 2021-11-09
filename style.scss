@@ -31,6 +31,7 @@ h2,p{
 }
 
 #bodykontakt{
+
    
 
         img { 
@@ -39,16 +40,16 @@ h2,p{
       height: 75rem;
       margin: 0px;
       padding: 0px;
-      animation-name: border;
+      animation-name: carduri;
       animation-duration: 5s;
       animation-iteration-count: infinite;
         }
 
-        @keyframes border{
+        @keyframes carduri{
 0%   {border:solid 3px yellowgreen;}
   25%  {border: solid 3px yellow;}
   50%  {border: solid 3px blue;}
-  100% {border: solid 3px green;}
+  100% {border: solid 3px rgb(218, 47, 69);}
 
         }
 
@@ -57,10 +58,38 @@ h2,p{
     margin-left: 3rem;
     }
 }
-main{
-    .card-group{
+main{ 
         img{
             height: 20rem;
+            animation-name: carduri;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+
         }
+
+        p, li{
+            font-family: 'Roboto Mono', monospace;
+            font-size: 25px;
+        }
+        h5,h6{ text-transform: uppercase;
+            animation-name: litere;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            
+        }
+
+        @keyframes litere{
+            0%   {color:yellowgreen;}
+            25%  {color:  yellow;}
+            50%  {color:  blue;}
+            100% {color:  red;}
+        }
+    }
+
+
+footer{
+    div{
+        height: 3rem;
+        background-color: rgb(165, 160, 160);
     }
 }

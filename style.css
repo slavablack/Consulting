@@ -29,15 +29,15 @@ header .carousel-item active {
   height: 75rem;
   margin: 0px;
   padding: 0px;
-  -webkit-animation-name: border;
-          animation-name: border;
+  -webkit-animation-name: carduri;
+          animation-name: carduri;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes border {
+@-webkit-keyframes carduri {
   0% {
     border: solid 3px yellowgreen;
   }
@@ -48,11 +48,11 @@ header .carousel-item active {
     border: solid 3px blue;
   }
   100% {
-    border: solid 3px green;
+    border: solid 3px #da2f45;
   }
 }
 
-@keyframes border {
+@keyframes carduri {
   0% {
     border: solid 3px yellowgreen;
   }
@@ -63,7 +63,7 @@ header .carousel-item active {
     border: solid 3px blue;
   }
   100% {
-    border: solid 3px green;
+    border: solid 3px #da2f45;
   }
 }
 
@@ -73,7 +73,63 @@ header .carousel-item active {
   margin-left: 3rem;
 }
 
-main .card-group img {
+main img {
   height: 20rem;
+  -webkit-animation-name: carduri;
+          animation-name: carduri;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+main p, main li {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+}
+
+main h5, main h6 {
+  text-transform: uppercase;
+  -webkit-animation-name: litere;
+          animation-name: litere;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes litere {
+  0% {
+    color: yellowgreen;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+
+@keyframes litere {
+  0% {
+    color: yellowgreen;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+
+footer div {
+  height: 3rem;
+  background-color: #a5a0a0;
 }
 /*# sourceMappingURL=style.css.map */
